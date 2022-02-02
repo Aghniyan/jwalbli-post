@@ -10,7 +10,7 @@ berisi api crud Posts yang dapat berkomunikasi dengan API dari [https://jsonplac
 
 ## Langkah instalasi Project Laravel
 - Git clone [Repository](https://github.com/Aghniyan/jwalbli-post.git) ke folder lokal
-- masuk kedalam direktori **laravel-post**, ketik perintah **composer install**
+- masuk kedalam direktori **laravel-post**, ketik perintah **composer update**
 - setelah proses install composer selesai, ketikan perintah **php artisan serve**
 - gunakan POSTMAN untuk menjalankan API nya.
 
