@@ -19,3 +19,7 @@ Route::get('post/{id}', 'PostController@getByID');
 Route::post('post', 'PostController@create');
 Route::patch('post/{id}', 'PostController@update');
 Route::delete('post/{id}', 'PostController@delete');
+
+Route::get('/', function () {
+    return 'Hello';
+});
